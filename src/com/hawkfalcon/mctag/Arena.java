@@ -10,9 +10,9 @@ import com.hawkfalcon.mctag.util.GameState;
 
 public class Arena implements Listener {
 
-	private final MCTag					plugin;
+	private final MCTag	plugin;
 	private final ConfigurationSection 	config;
-	private final String 				name;
+	private final String 	name;
 	private GameState gamestate;
 	
 	public Arena(MCTag plugin, String name, ConfigurationSection sect) {
